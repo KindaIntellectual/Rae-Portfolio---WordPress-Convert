@@ -63,21 +63,23 @@ main {
 }
 
 .hsContent {
-	max-width: 700px;
+    background-color: rgba(0,0,0,0.5);
+	width: 66%;
 	position: absolute;
-	left: 50%;
+	left: 16.50%;
+    right:16.50%;
 	top: 50%;
 }
 	.hsContent h2  {
 		color: #fff8de;
-		background-color: rgba(0,0,0,0.5);
+		/*background-color: rgba(0,0,0,0.5);*/
 		padding: 10px 5px;
 		font-size: 35px;
 		line-height: 38px;
 		margin-bottom: 12px;
 	}
 	.hsContent p {
-		width: 400px;
+		width: auto;
 		color: #b2b2b2;
 	}
 	.hsContent a {
@@ -95,31 +97,29 @@ main {
 /* Slide 2 */
 #slide-2 .bcg {background-image:url("/img/bcg_slide-2.jpg")}
 #slide-2 .hsContent {
-	margin-left: -450px;
-	bottom: 200px;
-	top: auto;
+    position: fixed;
+	top: 10%;    
+    width:100%;
+    left:0;
 }
 #slide-2 h2 {
-    position: fixed;
-    top: 70%;
 }
 
 /* Slide 3 */
 #slide-3 .bcg {background-image:url("/img/bcg_slide-3.jpg")}
 #slide-3 .hsContent {
-	margin-left: -239px;
+    position:fixed;
+    top: 25%;
 }
 	#slide-3 h2 {
 		color: #f2ead6;
-		background-color: rgba(0,0,0,0.6);
 	}
 
 /* Slide 4 */
 #slide-4 .bcg {background-image:url("/img/bcg_slide-1.jpg")}
 #slide-4 .hsContent {
-	margin-left: -450px;
     position: fixed;
-    top: 250px;
+    top: 200px;
 }
 	#slide-4 h2 {
 		background: none;
