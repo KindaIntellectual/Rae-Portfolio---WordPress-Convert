@@ -6,6 +6,7 @@
     font-size: 115px;
     color: #21759b;
 }
+/*navbar/container*/
 .navbar-brand {
 		float:none;
 		margin-left:0 !important;
@@ -81,6 +82,8 @@ main {
 	left: 16.50%;
     right:16.50%;
 	top: 50%;
+	border-radius: 10px;
+
 }
 	.hsContent h2  {
 		color: #fff8de;
