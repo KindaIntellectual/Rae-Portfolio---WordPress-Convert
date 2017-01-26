@@ -15,9 +15,14 @@
     padding: 0;
     text-align: center;
 }
-
+.portfolio h1{
+	color: white;
+        font-size: 50px;
+	margin-bottom: 0px;
+}
 hr {
     width: 75%;
+	margin-top: 0px;
 }
 /* ==========================================================================
    Parallax Scroll
@@ -80,7 +85,7 @@ main {
 	width: 66%;
 	position: absolute;
 	left: 16.50%;
-    right:16.50%;
+    	right:16.50%;
 	top: 50%;
 	border-radius: 10px;
 
@@ -127,7 +132,8 @@ main {
 	height: 250px;
 	width: 450px;
 	display: inline;
-    align-content: center;
+    	align-content: center;
+	margin: 10px;
 }
 
 /* Slide 3 */
@@ -140,8 +146,8 @@ main {
     top: 10%;
     height: 80%;
 }
-	#slide-3 h1 {
-		color: white;
+#slide-3 h1 {
+	color: white;
         font-size: 50px;
 	}
 #slide-3 p {
