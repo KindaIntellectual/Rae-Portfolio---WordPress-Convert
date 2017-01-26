@@ -1,3 +1,15 @@
+/*icons*/
+.devicon-html5-plain, .devicon-css3-plain, .devicon-javascript-plain {
+    font-size: 115px;
+}
+.devicon-wordpress-plain {
+    font-size: 115px;
+    color: #21759b;
+}
+.navbar-brand {
+		float:none;
+		margin-left:0 !important;
+}
 .container-fluid {
     padding: 0;
     text-align: center;
@@ -92,28 +104,48 @@ main {
 #slide-1 .hsContent {
 	bottom: 200px;
 	top: auto;
-}
-
+    padding: 25px;}
 /* Slide 2 */
-#slide-2 .bcg {background-image:url("/img/bcg_slide-2.jpg")}
+/*#slide-2 .bcg {background-image:url("/img/bcg_slide-2.jpg")}*/
+#slide-2 .bcg {
+    position:fixed;
+    background: none;
+    background-color: #010101;
+    height: 100%;
+    text-align: center
+}
 #slide-2 .hsContent {
     position: fixed;
-	top: 10%;    
     width:100%;
     left:0;
+    top: 0%;
 }
-#slide-2 h2 {
+#slide-2 img {
+	height: 250px;
+	width: 450px;
+	display: inline;
+    align-content: center;
 }
 
 /* Slide 3 */
-#slide-3 .bcg {background-image:url("/img/bcg_slide-3.jpg")}
+#slide-3 .bcg {
+    background-image:url("/img/bcg_slide-3.jpg");
+    height: 100%;
+}
 #slide-3 .hsContent {
     position:fixed;
-    top: 25%;
+    top: 10%;
+    height: 80%;
 }
-	#slide-3 h2 {
-		color: #f2ead6;
+	#slide-3 h1 {
+		color: white;
+        font-size: 50px;
 	}
+#slide-3 p {
+    color: white;
+    font-size: 20px;
+    padding-right: 10px;
+}
 
 /* Slide 4 */
 #slide-4 .bcg {background-image:url("/img/bcg_slide-1.jpg")}
